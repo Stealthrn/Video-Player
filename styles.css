@@ -1,0 +1,14 @@
+.video-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
+    gap: 50px;
+    margin: 40px 20%;
+}
+
+.video-preview {
+    width: 100%;
+    height: auto;
+    cursor: pointer;
+    border-radius: 15px;
+    overflow: hidden;
+}
