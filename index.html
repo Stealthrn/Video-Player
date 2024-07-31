@@ -1,26 +1,3 @@
-<!-- <!DOCTYPE html>
-<html lang="en">
-
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
-    <link rel="stylesheet" href="styles.css" />
-</head>
-
-<body>
-
-    <div id="upload-container">
-        <input type="file" id="video-file-input" accept="video/*" multiple>
-        <button id="custom-upload-button">Upload Video</button>
-    </div>
-    <div class="video-grid" id="videoGrid"></div>
-    <div id="video-link-container"></div>
-    <script src="script.js"></script>
-</body>
-
-</html> -->
-
 <!DOCTYPE html>
 <html lang="en">
 
@@ -29,11 +6,17 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Dynamic Video Grid Preview</title>
     <link rel="stylesheet" href="styles.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Indie+Flower&family=Pacifico&display=swap" rel="stylesheet">
 </head>
 
 <body>
-    <input type="file" id="video-file-input" accept="video/*" multiple>
-    <button id="custom-upload-button">Upload Video</button>
+    <h1 class="my-title">Video Player</h1>
+    <input type="file" id="video-file-input" class="file-input">
+    <button id="file-select-button">Choose File</button>
+    <span>No File Chosen</span>
+    <button class="button" id="custom-upload-button">Upload Video</button>
     <div class="video-grid" id="videoGrid"></div>
     <script src="script.js"></script>
 </body>

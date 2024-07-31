@@ -12,3 +12,69 @@
     border-radius: 15px;
     overflow: hidden;
 }
+
+.my-title {
+    text-align: center;
+    color: white;
+    font-family: "Pacifico", cursive;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 50px;
+
+}
+
+
+
+.button {
+    background-color: aqua;
+    border: none;
+    color: white;
+    padding: 5px 5px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin-left: 30px;
+
+}
+
+.video-title {
+    color: white;
+}
+
+#custom-upload-button,
+#file-select-button {
+    width: 120px;
+    height: 40px;
+    color: white;
+    background-color: aquamarine;
+    border: none;
+    font-family: "Indie Flower", cursive;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 20px;
+
+}
+
+#video-file-input {
+    display: none;
+
+}
+
+#file-select-button+span {
+    margin-left: 10px;
+
+}
+
+body {
+    background-color: #1E2761;
+    font-family: "Indie Flower", cursive;
+    font-weight: 400;
+    font-style: normal;
+    caret-color: transparent;
+}
+
+span {
+    color: white;
+    font-size: 16px;
+}
